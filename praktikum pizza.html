@@ -1,0 +1,90 @@
+<img src="pizza.png" alt="">
+<!DOCTYPE html > 
+ <html lang="en"> 
+ <head> 
+    <title>Pete's Pizza Delivery</title> 
+ </head> 
+  
+ <body> 
+  
+ <h1><b>Pete's Pizza Delivery</b></h1> 
+  
+  
+ <p>Our 12" wood-fired pizzas are avaiable for delivery. Build your custom pizza and we'll deliver it within an hour.</p> 
+  
+  
+ <fieldset> 
+ <legend>Your Information</legend> 
+ <ul> 
+ <li><label for="form-name">Name:</label> <input type="text" name="customername" id="form-name"></li> 
+ <li><label for="form-address">Address:</label> <input type="text" name="address" id="form-address"></li> 
+ <li><label for="form-tel">Telephone Number:</label> <input type="tel" name="telephone" id="form-tel"></li> 
+ <li><label for="form-email">Email: <input type="email" name="email" id="form-email"></label></li> 
+ <li>Delivery instructions:<br> 
+ <textarea name="instructions" rows="4" cols="60" maxlength="400" id="form-story"></textarea></li> 
+ </ul> 
+ </fieldset> 
+  
+ <h2>Design your dream pizza:</h2> 
+  
+ <fieldset> 
+ <legend><b>Pizza specs</b> 
+  
+ </legend><fieldset> 
+ <legend>Crust <em>(Choose one)</em>:</legend> 
+   <ul> 
+   <li><label><input type="radio" name="crust" value="white"> 
+   Classic white  
+   </label></li> 
+   <li><input type="radio" name="crust" value="multigrain">  
+   Multigrain</li> 
+   <li><input type="radio" name="crust" value="cheese crust"> 
+   Cheese-stuffed crust 
+   </li> 
+   <li><input type="radio" name="crust" value="gluten free"> 
+   Gluten-free 
+   </li> 
+   </ul> 
+ </fieldset> 
+  
+ <fieldset> 
+ <legend>Toppings <em>(Choose as many as you want)</em></legend> 
+   <ul> 
+   <li><input type="checkbox" name="toppings[]" value="Margherita">Margherita</li> 
+   <li><input type="checkbox" name="Four season">Four season 
+   </li> 
+   <li><input type="checkbox" name="toppings[]" value="Meat Feast"> 
+     Meat Feast 
+   </li> 
+   <li><input type="checkbox" name="toppings[]" value="Small">  
+    small</small></li> 
+   <li><input type="checkbox" name="toppings[]" value="Medium">  
+     Medium</li> 
+   <li><input type="checkbox" name="toppings[]" value="Large"> 
+   Large 
+   </li> 
+   <li><input type="checkbox" name="toppings[]" value="Green Peppers">  
+     Green peppers</li> 
+    </ul> 
+ </fieldset> 
+  
+ <fieldset> 
+ <legend><b>Number</b></legend> 
+ <p>How many pizzas:  
+   <select name="pizzas" size="3"> 
+ <option>1</option> 
+ <option>2</option> 
+ <option>3</option> 
+ <option>4</option> 
+ <option>5</option> 
+ <option>6</option> 
+ </select> 
+ </p> 
+ </fieldset> 
+  
+ </fieldset> 
+  
+ <p><input type="submit" value="Bring me a pizza!"> 
+ <input type="reset"></p> 
+ </body> 
+ </html>
