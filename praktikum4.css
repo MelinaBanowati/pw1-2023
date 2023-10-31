@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #333;
+    color: #f4f4f4;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+section{
+    background-color: #f4f4f4;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* CSS untuk kontainer utama */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* CSS untuk tautan video YouTube */
+.video-link {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+
+/* CSS untuk gambar/foto */
+.image {
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
+
+/* CSS untuk tautan download */
+.download-link{
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+}
