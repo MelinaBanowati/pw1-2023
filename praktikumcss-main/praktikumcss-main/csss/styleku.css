@@ -1,0 +1,58 @@
+#header {
+    background-color: red;
+}
+
+.body {
+    background-color: blue;
+}
+
+#judul {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#ri {
+    background-color: white;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gg {
+    width: 400px;
+    height: 350px;
+    border-radius: 5%;
+}
+
+.B {
+    font-size: xx-large;
+    color: blue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.isi {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#profil,
+#beternak {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.atas,
+.bawah {
+    width: 400px;
+    height: 350px;
+    border-radius: 5%;
+}
+
+.promo h2 {
+    background-color: brown;
+    text-align: center;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.promo h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: yellow;
+}
