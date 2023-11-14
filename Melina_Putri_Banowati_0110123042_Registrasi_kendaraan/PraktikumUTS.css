@@ -1,0 +1,14 @@
+h3{
+    align-items: center;
+    margin: 0 auto;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
