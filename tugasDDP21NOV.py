@@ -1,9 +1,9 @@
-def profil(nama, alamat, gender, umur, hobi) :
+def profil(nama, alamat, gender, umur, hobby) :
    print ('Nama saya adalah', nama)
    print ('Alamat saya di', alamat)
    print ('Gender saya adalah', gender)
    print ('Umur saya', umur)
-   print ('hobi saya', hobi)
+   print ('hobby saya', hobby)
 
 #memanggil fungsi 
 profil ('Melina Putri Banowati', 'Citeureup', 'perempuan', '19 tahun','menggambar')
